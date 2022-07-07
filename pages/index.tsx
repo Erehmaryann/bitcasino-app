@@ -10,16 +10,16 @@ import "react-toastify/dist/ReactToastify.css";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="relative overflow-hidden bg-primary main">
-				<div className="container pt-6 lg:pl-32 lg:pr-28">
-					<Header />
-					<Hero />
-				</div>
+      	<div className="relative overflow-hidden bg-primary main">
+			<div className="container pt-6 lg:pl-32 lg:pr-28">
+				<Header />
+				<Hero />
 			</div>
-			<div className="container py-6 bg-white lg:pl-32">
-				<Footer />
-			</div>
-			<ToastContainer />
+		</div>
+		<div className="container py-6 bg-white lg:pl-32">
+			<Footer />
+		</div>
+		<ToastContainer />
     </>
   )
 }
